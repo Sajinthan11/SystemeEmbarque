@@ -38,8 +38,8 @@ class my_task():
 
         while (1):
             
-            if self.period %5 != 0 and self.name == "pump1" or self.name == "pump2" or self.name == "machine1" or self.name == "machine2":
-                return
+            #if self.period %5 != 0 and self.name == "pump1" or self.name == "pump2" or self.name == "machine1" or self.name == "machine2":
+                #return
             if tank_stock == 50 and (self.name == "pump1" or self.name == "pump2"):
                 print("le tank est plein")
                 return
