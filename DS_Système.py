@@ -1,11 +1,6 @@
-
 import time
 import datetime
 import time
-import threading
-import random
-
-
 ################################################################################
 #   Handle all connections and rights for the server
 ################################################################################
